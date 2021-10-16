@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+h1,
+p,
+a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin: 0 22.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  place-content: space-between;
+  padding: 10px 120px;
+  align-items: center;
+}
+
+.navbar p {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  color: #ef3b3b;
+}
+
+.navbar span {
+  color: white;
+}
+
+.hero {
+  background-image:  linear-gradient(to bottom, rgba(0,0,0,0), rgb(0, 0, 0)), url("../images/thor-ragnarok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.hero-title {
+  padding: 412px 120px;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero p {
+  max-width: 763px;
+}
