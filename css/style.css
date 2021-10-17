@@ -4,6 +4,7 @@ body {
 }
 
 h1,
+h3,
 p,
 a {
   color: white;
@@ -46,20 +47,108 @@ a {
 }
 
 .hero {
-  background-image:  linear-gradient(to bottom, rgba(0,0,0,0), rgb(0, 0, 0)), url("../images/thor-ragnarok.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("../images/thor-ragnarok.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  cursor: pointer;
 }
 
 .hero-title {
   padding: 412px 120px;
 }
 
-.hero h1 {
-  font-size: 60px;
+.snwh {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("../images/spiderman-nowayhome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  cursor: pointer;
+}
+
+.snwh-title {
+  padding: 412px 120px;
+}
+
+.snwh desc {
+  margin: 65px 120px;
+}
+
+.snwh p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 .hero p {
   max-width: 763px;
+}
+
+.container {
+  margin: 65px 0;
+  padding-left: 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.thumbnail {
+  margin: 20px 0;
+  display: flex;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+}
+
+.thumbnail-img {
+  transition: all 1s ease-in-out;
+  margin-right: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumbnail-img img {
+  max-height: 400px;
+  border-radius: 60px;
+  transition: all 1s ease-in-out;
+}
+
+.thumbnail-img:hover {
+  transform: scale(1.2);
+  margin-right: 80px;
+  margin-left: 30px;
+}
+
+.thumbnail-img h3,
+.thumbnail-img p {
+  position: absolute;
+  top: 0;
+  opacity: 0%;
+  transition: all 1s ease-in-out;
+}
+
+.thumbnail-img:hover h3,
+.thumbnail-img:hover p {
+  opacity: 100%;
+}
+
+.thumbnail-img:hover img {
+  opacity: 50%;
+}
+
+.thumbnail-img h3 {
+  margin: 50px 30px;
+}
+
+.thumbnail p {
+  margin: 80px 30px;
+}
+
+.arrow {
+  top: 290px;
+  right: 40px;
+  position: absolute;
+  cursor: pointer;
 }
