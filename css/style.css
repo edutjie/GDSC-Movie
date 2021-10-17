@@ -18,7 +18,9 @@ a {
 }
 
 .nav-menu li {
+  display: flex;
   margin: 0 22.5px;
+  align-items: center;
 }
 
 a {
@@ -161,4 +163,10 @@ input {
   background-color: #ef3b3b;
   border-radius: 500px;
   border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  transform: scale(1.1);
 }
