@@ -107,6 +107,7 @@ h1 {
   margin-right: 30px;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .thumbnail-img img {
@@ -143,7 +144,8 @@ h1 {
 }
 
 .thumbnail p {
-  margin: 80px 30px;
+  margin: 110px 30px;
+  max-height: 380px;
 }
 
 .arrow {
@@ -151,4 +153,12 @@ h1 {
   right: 40px;
   position: absolute;
   cursor: pointer;
+}
+
+input {
+  color: white;
+  padding: 10px;
+  background-color: #ef3b3b;
+  border-radius: 500px;
+  border: none;
 }
