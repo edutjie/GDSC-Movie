@@ -108,7 +108,7 @@ arrows.forEach((arrow, i) => {
   let clickCounter = 0;
   arrow.addEventListener("click", () => {
     clickCounter++;
-    if (clickCounter < 9) {
+    if (clickCounter < 8) {
       thumbnails[i].style.transform = `translateX(${
         thumbnails[i].computedStyleMap().get("transform")[0].x.value - 270
       }px)`;
