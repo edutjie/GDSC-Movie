@@ -15,4 +15,4 @@ Features:
     <img src="https://user-images.githubusercontent.com/69960893/137765065-10fda36f-b852-45f7-8e65-f669516579c2.gif" />
   <li>Movie Search</li>
     <img src="https://user-images.githubusercontent.com/69960893/137766099-8ba1aec7-207e-4723-94aa-4f99c1199014.gif" />
-<p>To run the website, just open the index.html file.</p>
+<h3>To run the website, just open the index.html file.</h3>
