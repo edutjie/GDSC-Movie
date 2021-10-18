@@ -2,7 +2,7 @@
 <p>Name              : Eduardus Tjitrahardja</p>
 <p>University        : Universitas Indonesia</p>
 <p>DSC               : GDSC ITB</p>
-<p>Absent Code       : 255</p>
+<p>GDSC ID           : 255</p>
 
 <p>Movie API Fetched from https://developers.themoviedb.org/3</p>
 <h2>Features:</h2>
