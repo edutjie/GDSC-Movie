@@ -24,7 +24,7 @@
       <p>e<span>Flix</span></p>
       <ul class="nav-menu">
         <li>
-          <a href="#home">Home</a>
+          <a href="javascript:window.location.reload(true)">Home</a>
         </li>
         <li>
           <a href="#trending">Trending</a>
@@ -33,14 +33,14 @@
           <a href="#movies">Movies</a>
         </li>
         <li>
-          <form action="submit">
-            <input type="text" placeholder="Search">
+          <form action="submit" id="form">
+            <input type="text" placeholder="Search" id="search" />
           </form>
         </li>
       </ul>
     </div>
-    <div class="hero" id="home">
-      <div class="hero-title">
+    <div class="hero" id="hero">
+      <div class="hero-title" id="hero-title">
         <h1>Thor: Ragnarok</h1>
         <p>
           Deprived of his mighty hammer Mjolnir, Thor must escape the other side
@@ -97,12 +97,13 @@
             </p>
           </div> -->
         </div>
-        <img src="images/arrow.svg" alt="arrow" class="arrow" id="arrow"/>
+        <img src="images/arrow.svg" alt="arrow" class="arrow" id="arrow" />
       </div>
       <div class="movies" id="movies">
         <h1>Movies</h1>
+        <div class="thumbnail2" id="thumbnail2"></div>
       </div>
     </div>
-    <script src="js/script.js"></script>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>

@@ -55,13 +55,14 @@ a {
   background-size: cover;
   height: 80vh;
   cursor: pointer;
+  display: none;
 }
 
 .hero-title {
   padding: 412px 120px;
 }
 
-.snwh {
+.movie {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url("../images/spiderman-nowayhome.jpg");
   background-repeat: no-repeat;
@@ -70,15 +71,15 @@ a {
   cursor: pointer;
 }
 
-.snwh-title {
+.movie-title {
   padding: 412px 120px;
 }
 
-.snwh desc {
+.movie desc {
   margin: 65px 120px;
 }
 
-.snwh p {
+.movie p {
   margin: 0;
 }
 
@@ -91,7 +92,7 @@ h1 {
 }
 
 .container {
-  margin: 65px 0;
+  margin: 20px 0;
   padding-left: 120px;
   overflow: hidden;
   position: relative;
@@ -104,6 +105,16 @@ h1 {
   transition: all 1s ease-in-out;
 }
 
+.thumbnail2 {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 1s ease-in-out;
+}
+.thumbnail2-item {
+  margin-bottom: 20px;
+}
+
 .thumbnail-img {
   transition: all 1s ease-in-out;
   margin-right: 30px;
@@ -113,7 +124,8 @@ h1 {
 }
 
 .thumbnail-img img {
-  max-height: 400px;
+  height: 400px;
+  width: 270px;
   border-radius: 60px;
   transition: all 1s ease-in-out;
 }
@@ -122,6 +134,13 @@ h1 {
   transform: scale(1.2);
   margin-right: 80px;
   margin-left: 30px;
+}
+
+.thumbnail2-item .thumbnail-img:hover{
+  transform: scale(1.2);
+  margin: 30px 0;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 
 .thumbnail-img h3,
@@ -145,8 +164,8 @@ h1 {
   margin: 50px 30px;
 }
 
-.thumbnail p {
-  margin: 110px 30px;
+.thumbnail-img p {
+  margin: 130px 30px;
   max-height: 380px;
 }
 
@@ -169,4 +188,8 @@ input {
 input:focus {
   outline: none;
   transform: scale(1.1);
+}
+
+::placeholder {
+  color: white;
 }
