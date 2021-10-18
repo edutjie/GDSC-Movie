@@ -5,6 +5,12 @@
 <p>GDSC ID           : 255</p>
 
 <p>Movie API Fetched from https://developers.themoviedb.org/3</p>
+<h3>Tools:</h3>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Vanilla JS</li>
+</ul>
 <h2>Features:</h2>
 <ul>
   <li>Top 10 Trending Slider</li>
@@ -15,4 +21,5 @@
     <img src="https://user-images.githubusercontent.com/69960893/137766099-8ba1aec7-207e-4723-94aa-4f99c1199014.gif" />
   <li>Movie Search</li>
     <img src="https://user-images.githubusercontent.com/69960893/137765065-10fda36f-b852-45f7-8e65-f669516579c2.gif" />
+</ul>
 <h3>To run the website, just clone the Github Repository and open the index.html file.</h3>
