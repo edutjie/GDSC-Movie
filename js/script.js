@@ -26,7 +26,7 @@ const getMovies = (url) => {
 
 const hero = document.getElementById("hero");
 
-const showDesc = (title, overview, vote_average, poster_path) => {
+const showDesc = (title, overview, vote_average, poster_path, release_date) => {
   hero.style.backgroundImage =
     "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('" +
     IMG_URL +
@@ -35,6 +35,7 @@ const showDesc = (title, overview, vote_average, poster_path) => {
   hero.style.display = "block";
   document.getElementById("hero-title").innerHTML = `
   <h1>${title}</h1>
+  <p>Release Date: ${release_date}</p>
   <p>Rating: ${vote_average} / 10</p><br>
   <p>
   ${overview}
@@ -45,12 +46,12 @@ const showDesc = (title, overview, vote_average, poster_path) => {
 const showTrending = (data) => {
   thumbnail.innerHTML = "";
   data.forEach((movie) => {
-    const { title, overview, vote_average, poster_path } = movie;
+    const { title, overview, vote_average, poster_path, release_date } = movie;
     const movieElement = document.createElement("div");
     movieElement.classList.add("thumbnail");
     movieElement.setAttribute("id", "thumbnail");
     movieElement.innerHTML = `
-            <a href="#hero">
+            <a href="#hero" onclick="showDesc('${title}','${overview}','${vote_average}','${poster_path}','${release_date}')">
                 <div class="thumbnail-img">
                     <img src="${IMG_URL + poster_path}" alt="${title}" />
                     <h3>${title}</h3>
@@ -72,12 +73,7 @@ const showMovie = (data) => {
     movieElement.classList.add("thumbnail2-item");
     movieElement.setAttribute("id", "thumbnail2-item");
     movieElement.innerHTML = `
-            <a href="#hero" onclick="${showDesc(
-              title,
-              overview,
-              vote_average,
-              poster_path
-            )}">
+            <a href="#hero" onclick="showDesc('${title}','${overview}','${vote_average}','${poster_path}')">
                 <div class="thumbnail-img">
                     <img src="${IMG_URL + poster_path}" alt="${title}" />
                     <h3>${title}</h3>

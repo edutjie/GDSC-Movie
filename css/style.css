@@ -51,36 +51,16 @@ a {
 .hero {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url("../images/thor-ragnarok.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: fit;
   height: 80vh;
   cursor: pointer;
   display: none;
+  margin-bottom: 200px;
 }
 
 .hero-title {
   padding: 412px 120px;
-}
-
-.movie {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
-    url("../images/spiderman-nowayhome.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-  cursor: pointer;
-}
-
-.movie-title {
-  padding: 412px 120px;
-}
-
-.movie desc {
-  margin: 65px 120px;
-}
-
-.movie p {
-  margin: 0;
 }
 
 h1 {
