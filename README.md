@@ -1,11 +1,11 @@
 <h1>A Movie Portal Application: eFlix</h1>
-Name              : Eduardus Tjitrahardja
-University        : Universitas Indonesia
-DSC               : GDSC ITB
-Absent Code       : 255
+<p>Name              : Eduardus Tjitrahardja</p>
+<p>University        : Universitas Indonesia</p>
+<p>DSC               : GDSC ITB</p>
+<p>Absent Code       : 255</p>
 
-Movie API Fetched from https://developers.themoviedb.org/3
-Features:
+<p>Movie API Fetched from https://developers.themoviedb.org/3</p>
+<p>Features:</p>
 <ul>
   <li>Top 10 Trending Slider</li>
     <img src="https://user-images.githubusercontent.com/69960893/137762672-3a00922f-c485-4a56-945d-86add4c60071.gif" />
