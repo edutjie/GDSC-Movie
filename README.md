@@ -5,7 +5,7 @@
 <p>Absent Code       : 255</p>
 
 <p>Movie API Fetched from https://developers.themoviedb.org/3</p>
-<p>Features:</p>
+<h2>Features:</h2>
 <ul>
   <li>Top 10 Trending Slider</li>
     <img src="https://user-images.githubusercontent.com/69960893/137762672-3a00922f-c485-4a56-945d-86add4c60071.gif" />
