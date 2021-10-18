@@ -5,7 +5,7 @@
 <p>GDSC ID           : 255</p>
 
 <p>Movie API Fetched from https://developers.themoviedb.org/3</p>
-<h3>Tools:</h3>
+<h2>Tools:</h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
