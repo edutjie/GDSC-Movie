@@ -3,13 +3,12 @@
 <p>University        : Universitas Indonesia</p>
 <p>DSC               : GDSC ITB</p>
 <p>GDSC ID           : 255</p>
-
-<p>Movie API Fetched from https://developers.themoviedb.org/3</p>
 <h2>Tools:</h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>Vanilla JS</li>
+  <li>Movie API Fetched from https://developers.themoviedb.org/3</li>
 </ul>
 <h2>Features:</h2>
 <ul>
