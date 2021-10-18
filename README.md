@@ -1,7 +1,8 @@
 <h1>A Movie Portal Application: eFlix</h1>
-# GDSC-Movie
-255-Eduardus Tjitrahardja-UI
-GDSC ITB
+Name              : Eduardus Tjitrahardja
+University        : Universitas Indonesia
+DSC               : GDSC ITB
+Absent Code       : 255
 
 Movie API Fetched from https://developers.themoviedb.org/3
 Features:
@@ -11,5 +12,7 @@ Features:
   <li>Movie List</li>
     <img src="https://user-images.githubusercontent.com/69960893/137763373-5c2439dc-4f1c-4b64-9d53-6ca4e04b26b3.gif" />
   <li>Detailed Page</li>
-
+    <img src="https://user-images.githubusercontent.com/69960893/137765065-10fda36f-b852-45f7-8e65-f669516579c2.gif" />
   <li>Movie Search</li>
+    <img src="https://user-images.githubusercontent.com/69960893/137766099-8ba1aec7-207e-4723-94aa-4f99c1199014.gif" />
+To run the website, just open the index.html file.
